@@ -14,6 +14,8 @@ const getName = (): User => {
   }
 }
 
+// key resources: https://stackoverflow.com/questions/90178/make-a-div-fill-the-height-of-the-remaining-screen-space?page=2&tab=modifieddesc#tab-top
+
 function App() {
   const users = Array.from({ length: 100 }, getName)
 
